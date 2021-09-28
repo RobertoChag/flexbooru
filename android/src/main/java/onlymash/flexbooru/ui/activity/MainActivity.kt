@@ -88,7 +88,7 @@ import org.kodein.di.instance
 class MainActivity : PathActivity(), SharedPreferences.OnSharedPreferenceChangeListener {
 
     companion object {
-        private const val BOORUS_LIMIT = 3
+        private const val BOORUS_LIMIT = 90
         private const val HEADER_ITEM_ID_BOORU_MANAGE = -100L
         private const val DRAWER_ITEM_ID_ACCOUNT = 1L
         private const val DRAWER_ITEM_ID_COMMENTS = 2L
